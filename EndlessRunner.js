@@ -37,8 +37,7 @@ window.onload = function(){
         backgroundColor: '#87CEEB',
 
         physics: {
-            default: 'arcade',
-            arcade
+            default: 'arcade'
         }
     };
 
