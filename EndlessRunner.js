@@ -58,25 +58,25 @@ class preloadGame extends Phaser.Scene{
         //this.load.image('player-jump', 'player-jump.png')
 
         //loading platform
-        this.load.image('platform', 'platform.png')
+        this.load.image('platform', './platform.png')
 
         //loading coin
-        this.load.spritesheet('coin', 'coin.png', {
+        this.load.spritesheet('coin', './coin.png', {
             frameWidth: 20,
             frameHeight: 20
         });
         //loading player spritesheet
-        this.load.spritesheet("player", "player.png", {
+        this.load.spritesheet("player", "./player.png", {
             frameWidth: 24,
             frameHeight: 48
         });
 
-        this.load.spritesheet('mountain', 'mountain.png', {
+        this.load.spritesheet('mountain', './mountain.png', {
             frameWidth: 512,
             frameHeight: 512
         });
 
-        this.load.spritesheet('fire', 'fire.png', {
+        this.load.spritesheet('fire', './fire.png', {
             frameWidth: 40,
             frameHeight: 70
         })
